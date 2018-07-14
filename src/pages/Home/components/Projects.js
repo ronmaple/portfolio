@@ -58,12 +58,12 @@ class Projects extends Component {
 
                     <h3 id='projectsTitle'>Projects</h3>
          
-                        <div class="container-project">
+                        <div className="container-project">
                             <hr />
                             <div className="picture-grid">
                             {
                                 data.map(i => {
-                                        return <ProjectBox key={i.toString()}title={i.title} desc={i.desc} image={i.image} stack={i.stack} id={i._id}/>
+                                        return <ProjectBox key={i._id.toString()}title={i.title} desc={i.desc} image={i.image} stack={i.stack} id={i._id}/>
                                     })
                             }
                             </div>

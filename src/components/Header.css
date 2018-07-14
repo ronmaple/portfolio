@@ -1,0 +1,28 @@
+/*@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');*/
+/**/
+nav.navbar.navbar-default div.container {
+    background-color: #144791;/*hsl(210, 80%, 25%);*/
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px hsl(0, 0%, 70%);
+    /* padding-right: 60px;  */
+    /* overflow-x: hidden; */
+    /* color: white; */
+}
+
+nav.navbar.navbar-default div.container li a {
+    margin-top: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+nav.navbar.navbar-default div.container li a:hover {
+    background-color: hsl(210, 80%, 40%);
+}
+
+
+/* .icon-temp {
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+} */

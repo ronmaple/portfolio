@@ -1,0 +1,46 @@
+/*.container {*/
+    /*margin: auto;*/
+/*}*/
+
+/*div {*/
+    /*align-items: center;*/
+    /*display: flex;*/
+/*}*/
+.container-project {
+    background-color: hsl(0, 0%, 98%);
+}
+h3 {
+    color: black;
+    margin-left: 60px;
+}
+
+#projects-icon {
+    margin-left: 50px;
+    margin-top: 10px;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 2px solid blue;
+}
+#projectsTitle {
+    margin-top: 40px;
+    text-align: left;
+    font-weight: 900;
+    font-size: 50px;
+    color: hsl(210, 80%, 20%);
+}
+
+/* #projsec-container {
+    margin-top: 40px;
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 1%;
+} */
+
+.picture-grid {
+    height: auto;
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}

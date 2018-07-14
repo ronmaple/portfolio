@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+.container-info {
+    height: 350px;
+    background-color: hsl(210, 80%, 30%);
+    border: solid 1.5px hsl(210, 80%, 45%);
+    box-shadow: 2px 1px 0px 0px hsl(210, 80%, 20%);
+    /* border-radius: 5px; */
+    padding: 20px;
+    text-align: justify;
+    color: #fff2e6;
+    margin-top: 20px;
+}
+
+.info-box {
+    height: 300px;
+    width: 70%;
+    float: left;
+    padding: 20px;
+    background-color: hsl(210, 80%, 29%);
+}
+
+.avatar-box {
+    float: right;
+    height: 300px;
+    width: 30%;
+    opacity: 1;
+    
+}
+
+#avatar {
+    border-radius: 50%;
+    margin-left: 30px;
+    width: 80%;
+    height: auto;
+    box-shadow: 1.5px 1.5px 0px 2.0px hsl(0, 0%, 20%);
+    
+}
+
+.this {
+    opacity: 0;
+}
+
+.avatar-box:hover .avatar-box {
+    opacity: 0;
+}
+
+.avatar-box:hover div.this {
+    opacity: 1;
+}
+
+/* .jumbotron-fluid {
+    background-color: hsl(210, 80%, 30%);
+    border-radius: 5px;
+    padding: 20px;
+    /* padding-right: 10px;
+    padding-left: 10px; */
+    /* text-align: justify; */
+    /* color: #fff2e6; */
+    /* margin-top: 20px; */
+/* } */
+
+/* p  {
+    font-family: "Playfair Display", serif;
+    color: white;
+} */
+

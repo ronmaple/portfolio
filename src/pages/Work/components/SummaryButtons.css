@@ -1,0 +1,26 @@
+.skillBox {
+    height: 45px;
+    /* width: 120px; */
+    width: auto;
+    margin: 5px;
+    padding: 1px 15px;
+    background-color: hsl(210, 80%, 99%);
+    box-shadow: 0.4px 0.4px 0.7px 0.5px hsl(0, 0%, 60%);
+    border: solid 1px hsl(210, 80%, 40%);
+    border-radius: 2px;
+    color: hsl(0, 0%, 40%);
+    display: inline-block;
+}
+
+.skillBox h4 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.skillBox:hover {
+    /* background-color: white;
+    color: hsl(210, 80%, 40%);
+    box-shadow: none; */
+}

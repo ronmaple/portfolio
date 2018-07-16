@@ -1,0 +1,62 @@
+.work-main {
+    /* float: right; */
+    width: 90%;
+    height: 800px;
+    /* margin: 100px 100px 0px 150px; */
+    margin: 100px auto 0px 120px;
+}
+.work-main h1 {
+    color: hsl(0, 0%, 30%);
+    background-color: hsl(0, 0%, 98%);
+    width: 50%;
+    margin: auto;
+    font-size: 60px;
+    font-weight: 800;
+    padding: 5px 30px;
+    margin: auto;
+    text-align: center;
+}
+
+.summary-content {
+    background-color: white;    
+    width: 75%;
+    margin: auto;
+    height: auto;
+}
+
+.summary-description {
+    height: 100px;
+    position: relative;
+
+}
+
+.summary-description p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: hsl(0, 0%, 25%);
+    font-weight: 700;
+    padding: 20px 40px;
+}
+
+.summary {
+    border-radius: 5px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    /* border: solid 3px hsl(210, 85%, 80%); */
+    box-shadow: 0.5px 0.5px 0.5px 1.0px hsl(210, 85%, 80%);
+}
+
+.summary.skills {
+    box-shadow: none;
+}
+
+/* .summary.work {
+    border: solid 2px hsl(210, 85%, 80%);
+}
+.summary.volunteer {
+    border: solid 2px hsl(192, 100%, 50%)
+} */

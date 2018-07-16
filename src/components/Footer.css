@@ -1,0 +1,22 @@
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: #144791;
+    position: relative;
+    /* display: inline-block; */
+    /* bottom: 0; */
+}
+
+.footer-about {
+    border: solid 2px red;
+    height: inherit;
+    width: 60%;
+    float: right;
+}
+
+.footer-contacts {
+    border: solid 2px yellow;
+    height: inherit;
+    width: 40%;
+    float: left;
+}

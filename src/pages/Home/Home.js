@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Jumbotron from './components/Jumbotron';
 import Infobox from './components/Infobox';
 import Projects from './components/Projects';
-
+import Footer from "../../components/Footer";
 class Home extends Component {
     constructor(props) {
         super(props);
@@ -19,6 +19,7 @@ class Home extends Component {
                         heading={InfoBox_header}
                         entry={loremipsum}/>
                     <Projects />
+                    <Footer />
                 </div>
             </div>
         );

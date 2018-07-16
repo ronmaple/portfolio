@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Jumbotron.css';
 
+import SummaryButton from "../../Work/components/SummaryButtons";
+
 class Jumbotron extends Component {
 
     render() {
@@ -8,13 +10,14 @@ class Jumbotron extends Component {
         return (
             <div className="jumbotron jumbotron-fluid" style={{ marginTop: 0}}>
                 <div className="container j-container text-center">
-                    <h1 className="display-3" style={{ color: '#1789fb' }}>{this.props.title}</h1>
+                    <h1 className="display-3" style={{ marginTop: 100, color: 'hsl(210, 85%, 40%)' }}>{this.props.title}</h1>
                     <h1 style={{
                         fontWeight: 200,
                         fontSize: 20,
-                        marginTop: 0,
+                        marginTop: 10,
                         color: '#1789fb'
                     }}>{this.props.subtitle}</h1>
+  
                 </div>
             </div>
         );

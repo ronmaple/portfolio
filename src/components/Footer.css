@@ -8,14 +8,12 @@
 }
 
 .footer-about {
-    border: solid 2px red;
     height: inherit;
     width: 60%;
     float: right;
 }
 
 .footer-contacts {
-    border: solid 2px yellow;
     height: inherit;
     width: 40%;
     float: left;

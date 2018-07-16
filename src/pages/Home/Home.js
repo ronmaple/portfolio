@@ -48,6 +48,9 @@ const skills = [
     },
     {
         skill: "GoogleOAuth"
+    },
+    {
+        skill: "Version Control/Git"
     }
 ]
 
